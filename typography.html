@@ -80,14 +80,27 @@
               <div class="block-bordered-left">
                 <div class="row row-70">
                   <div class="col-sm-6 col-xl-12">
-                    
+                    <h3>Nuestras actividades</h3>
+
+    <ul id="videoList">
+        <li><a href="videos/video1.mp4" onclick="playVideo('video1.mp4')">Video 1</a></li>
+        <li><a href="videos/video2.mp4" onclick="playVideo('video2.mp4')">Video 2</a></li>
+        <li><a href="videos/video3.mp4" onclick="playVideo('video3.mp4')">Video 3</a></li>
+    </ul>
                   </div>
 
                 </div>
               </div>
             </div>
             <div class="col-xl-7">
-              <video width="500" height="350" controls autoplay muted"></video>
+              
+
+    <video controls id="videoPlayer" width="500" autoplay>
+        <source src="videos/video1.mp4" src="videos/video2.mp4" video/mp4" id="videoSource">
+        Tu navegador no soporta la reproducción de video.
+    </video>
+          
+
             </div>
           </div>
         </div>
@@ -131,5 +144,6 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/script2.js"></script>
   </body>
 </html>
