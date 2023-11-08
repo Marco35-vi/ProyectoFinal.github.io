@@ -4448,7 +4448,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .section-main-bunner .main-bunner-title {
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
 }
 
 @media (min-width: 992px) {
@@ -5921,6 +5921,7 @@ html.tablet .ui-to-top {
 
 .rd-navbar-static .rd-nav-item {
 	display: inline-block;
+	text-shadow: 0px 4px 4px #000000;
 }
 
 .rd-navbar-static .rd-nav-item.focus .rd-nav-link, .rd-navbar-static .rd-nav-item.opened .rd-nav-link {
@@ -6280,7 +6281,7 @@ html.tablet .ui-to-top {
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	text-align: left;
+	text-align: right;
 	font-size: 22px;
 	margin-top: -2px;
 }
