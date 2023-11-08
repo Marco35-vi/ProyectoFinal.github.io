@@ -864,7 +864,9 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-img-animate .box-img-animate-item {
 	display: inline-block;
-	border-radius: 50%;
+	box-shadow: 10px 20px 20px #424141;
+	
+	
 }
 
 .box-img-animate .box-img-animate-item img {
