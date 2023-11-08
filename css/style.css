@@ -864,6 +864,7 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-img-animate .box-img-animate-item {
 	display: inline-block;
+	border-radius: 50%;
 }
 
 .box-img-animate .box-img-animate-item img {
@@ -959,6 +960,7 @@ a[href*='tel'], a[href*='mailto'] {
 	z-index: 1;
 	position: relative;
 	overflow: hidden;
+	box-shadow: 0px 10px 10px #000000;
 }
 
 .box-causes-img:before {
