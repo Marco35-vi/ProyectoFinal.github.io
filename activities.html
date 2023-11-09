@@ -35,7 +35,7 @@
                   <!-- RD Navbar Toggle-->
                   <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
                   <!-- RD Navbar Brand-->
-                  <div class="rd-navbar-brand"><a href="index.html"><img class="brand-logo-light" src="images/logo-inverse-415x103.png" alt="" width="207" height="51"/></a></div>
+                  <div class="rd-navbar-brand"><img class="brand-logo-light" src="images/logo-inverse-415x103.png" alt="" width="150" height="100"/></div>
                 </div>
                 <div class="rd-navbar-main-element">
                   <div class="rd-navbar-nav-wrap">
@@ -45,13 +45,15 @@
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="about-us.html">Sobre nosotros</a>
                       </li>
-                      <li class="rd-nav-item active"><a class="rd-nav-link" href="typography.html">Actividades</a>
+                      <li class="rd-nav-item active"><a class="rd-nav-link" href="activities.html">Actividades</a>
                       </li>
                       <li class="rd-nav-item"><a class="rd-nav-link" href="contacts.html">Contactos</a>
                       </li>
-                    </ul><a class="button button-primary button-sm" href="#">Donate</a>
+                    </ul>
+                    <!-- <a class="button button-primary button-sm" href="#">Donate</a> -->
                   </div>
-                </div><a class="button button-primary button-sm" href="#">Donativo</a>
+                </div>
+                <!-- <a class="button button-primary button-sm" href="#">Donativo</a> -->
               </div>
             </div>
           </nav>
@@ -62,7 +64,7 @@
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-12 col-lg-9">
-                <h2 class="breadcrumbs-custom-title">Actividades</h2>
+                <h2 class="breadcrumbs-custom-title">Nuestras actividades</h2>
                 <ul class="breadcrumbs-custom-path">
                   <li><a href="index.html">Inicio</a></li>
                   <li class="active">Actividades</li>
@@ -73,19 +75,18 @@
         </div>
       </section>
       <!-- Base typography -->
-      <section class="section section-lg bg-default">
+      <section class="section section-lg bg-default" id="video">
         <div class="container">
           <div class="row row-50 flex-lg-row-reverse justify-content-xl-between">
             <div class="col-xl-4">
               <div class="block-bordered-left">
                 <div class="row row-70">
                   <div class="col-sm-6 col-xl-12">
-                    <h3>Nuestras actividades</h3>
-
     <ul id="videoList">
-        <li><a href="videos/video1.mp4" onclick="playVideo('video1.mp4')">Video 1</a></li>
-        <li><a href="videos/video2.mp4" onclick="playVideo('video2.mp4')">Video 2</a></li>
-        <li><a href="videos/video3.mp4" onclick="playVideo('video3.mp4')">Video 3</a></li>
+        <li><h3><a class="rav-lu" href="videos/video1.mp4" onclick="playVideo('video1.mp4')">Actividades 1</a></h3></li>
+        <li><h3><a class="rav-lu" href="videos/video2.mp4" onclick="playVideo('video2.mp4')">Actividades 2</a></h3></li>
+        <li><h3><a class="rav-lu" href="videos/video3.mp4" onclick="playVideo('video3.mp4')">Actividades 3</a></h3></li>
+        <li><h3><a class="rav-lu" href="videos/video4.mp4" onclick="playVideo('video4.mp4')">Actividades 4</a></h3></li>
     </ul>
                   </div>
 
@@ -94,11 +95,12 @@
             </div>
             <div class="col-xl-7">
               
-
-    <video controls id="videoPlayer" width="500" autoplay>
-        <source src="videos/video1.mp4" src="videos/video2.mp4" video/mp4" id="videoSource">
-        Tu navegador no soporta la reproducción de video.
-    </video>
+<div class="video-container">
+        <video id="videoPlayer" controls width="100%" autoplay>
+            <source src="/videos/video1.mp4" type="video/mp4" id="videoSource">
+            Tu navegador no soporta la reproducción de video.
+        </video>
+    </div>
           
 
             </div>
@@ -116,23 +118,23 @@
         <div class="container wow-outer">
           <div class="wow fadeIn">
             <div class="row row-50 row-lg-60">
-              <div class="col-12"><a href="index.html"><img src="images/logo-inverse-415x103.png" alt="" width="207" height="51"/></a></div>
+              <div class="col-12"><a href="index.html"><img src="images/logo.png" alt="" width="207" height="51"/></a></div>
               <div class="col-12">
                 <ul class="footer-minimal-nav">
                   <li><a href="about-us.html">Sobre nosotros</a></li>
-                  <li><a href="#">Causas</a></li>
-                  <li><a href="#">Galeria</a></li>
-                  <li><a href="#">Equipo</a></li>
+                  <li><a href="about-us.html#plantel">Plantel docente</a></li>
+                  <li><a href="index.html#Galeria">Galeria</a></li>
+                  <li><a href="#video">Videos</a></li>
                   <li><a href="contacts.html">Contactos</a></li>
                 </ul>
               </div>
               <div class="col-12">
                 <ul class="social-list">
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="#"></a></li>
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-facebook" href="https://www.facebook.com/profile.php?id=100063312273337"></a></li>
+                  <!-- <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-instagram" href="#"></a></li>
                   <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-twitter" href="#"></a></li>
                   <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-youtube-play" href="#"></a></li>
-                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-pinterest-p" href="#"></a></li>
+                  <li><a class="icon icon-sm icon-circle icon-circle-md icon-bg-white fa-pinterest-p" href="#"></a></li> -->
                 </ul>
               </div>
             </div>

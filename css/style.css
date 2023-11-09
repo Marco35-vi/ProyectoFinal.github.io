@@ -860,10 +860,14 @@ a[href*='tel'], a[href*='mailto'] {
 
 .box-img-animate {
 	text-align: center;
+	scroll-margin-top: 190px;
 }
 
 .box-img-animate .box-img-animate-item {
 	display: inline-block;
+	box-shadow: 10px 20px 20px #424141;
+	
+	
 }
 
 .box-img-animate .box-img-animate-item img {
@@ -959,6 +963,7 @@ a[href*='tel'], a[href*='mailto'] {
 	z-index: 1;
 	position: relative;
 	overflow: hidden;
+	box-shadow: 0px 10px 10px #000000;
 }
 
 .box-causes-img:before {
@@ -4101,6 +4106,7 @@ h3 + .rd-form {
 
 .row-20 > * {
 	margin-bottom: 20px;
+
 }
 
 .row-30 {
@@ -4137,10 +4143,13 @@ h3 + .rd-form {
 
 .row-50 > * {
 	margin-bottom: 50px;
+	
 }
 
 .row-70 {
 	margin-bottom: -70px;
+	
+
 }
 
 .row-70:empty {
@@ -4275,6 +4284,7 @@ h3 + .group-xl {
 .section-lg,
 .section-xl {
 	padding: 70px 0;
+	scroll-margin-top: 70px;
 }
 
 .section-xxl {
@@ -4448,7 +4458,7 @@ html [class*='section-'].section-bottom-0 {
 }
 
 .section-main-bunner .main-bunner-title {
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	text-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
 }
 
 @media (min-width: 992px) {
@@ -5921,6 +5931,9 @@ html.tablet .ui-to-top {
 
 .rd-navbar-static .rd-nav-item {
 	display: inline-block;
+	text-shadow: 0px 4px 4px #000000;
+	margin-right: 5%;
+	margin-left: -30%;
 }
 
 .rd-navbar-static .rd-nav-item.focus .rd-nav-link, .rd-navbar-static .rd-nav-item.opened .rd-nav-link {
@@ -5935,6 +5948,7 @@ html.tablet .ui-to-top {
 .rd-navbar-static .rd-nav-item.active .rd-nav-link {
 	color: #7FBC4E;
 	background: transparent;
+	font-size: 250%;
 }
 
 .rd-navbar-static .rd-nav-item.active > .rd-navbar-submenu-toggle {
@@ -6275,12 +6289,12 @@ html.tablet .ui-to-top {
 }
 
 .rd-navbar-fixed .rd-navbar-brand {
-	position: relative;
+	position: absolute;
 	margin-left: 20px;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	text-align: left;
+	text-align: right;
 	font-size: 22px;
 	margin-top: -2px;
 }
@@ -6738,6 +6752,7 @@ html.rd-navbar-fixed-linked .page {
 */
 .rd-navbar-classic.rd-navbar-static {
 	background: rgba(255, 255, 255, 0.11);
+	margin-bottom: 80%; 
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-aside-outer,
@@ -6749,8 +6764,8 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-classic.rd-navbar-static .rd-navbar-aside,
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main {
 	max-width: 1600px;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -6873,3 +6888,37 @@ html.rd-navbar-fixed-linked .page {
 html:not(.ie-11):not(.ios) .parallax-disabled {
 	background-attachment: fixed;
 }
+.rav-lu{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 90%;
+	font-style: oblique;
+	color: #000000;
+	text-shadow: 0px 8px 8px #2ea33d;
+}
+
+@media screen {
+	.video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .video-list {
+            list-style: none;
+            padding: 0;
+			text-align: center;
+        }
+        .video-list li {
+            margin-bottom: 10px;
+			text-align: center;
+        }
+	}
+		
